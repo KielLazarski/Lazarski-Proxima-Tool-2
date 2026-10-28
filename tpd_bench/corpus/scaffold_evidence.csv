@@ -1,0 +1,7 @@
+gene,tier,sign,basis,confounders,source
+BTK,1,pathogenic,"3 variant(s): L528W (ablates), T474I (impairs), V416L (impairs); signalling persists",,Montoya et al. Science 2024; Nurix ICML 2023 poster
+RIPK1,2,protective,"postnatal lethality, dysregulated cell death, systemic inflammation (KO) vs viable, phenotypically normal (inhibitor), mouse, kinase-dead knock-in vs full knockout",,Front Immunol 2021;12:676946; Mannion et al. Immunity 2024
+AURKA,3,pathogenic,"S-phase arrest; TPX2-associated spindle pool removed (JB170) (KO) vs G2/M arrest; both pools inhibited (alisertib) (inhibitor), neuroblastoma lines, degrader vs inhibitor",developmental_compensation,Pogasha & Fletcher RSC Med Chem 2025
+HPK1,3,unknown,"loss of TCR suppression (KO) vs loss of TCR suppression (inhibitor), Jurkat and primary human T cells",developmental_compensation,Wang et al. Front Immunol 2025;16:1449106
+IRAK4,3,unknown,"reduced splenomegaly, proteinuria, ANA, glomerulonephritis (KO) vs reduced disease (kinase inhibition alone sufficient in this model) (inhibitor), mouse lupus background, kinase-dead knock-in",inhibitor_off_target|developmental_compensation,Murphy et al. Eur J Immunol 2017;47(5):880-891
+PTK2,4,pathogenic,"wound healing -53pct, invasion -65pct at 50 nM (degrader) (KO) vs no effect at matched concentration (defactinib) (inhibitor), A549 and related lines, degrader vs inhibitor",inhibitor_off_target|developmental_compensation|unmatched_model,Pogasha & Fletcher RSC Med Chem 2025;16:2958-2973; Cromm JACS 2018

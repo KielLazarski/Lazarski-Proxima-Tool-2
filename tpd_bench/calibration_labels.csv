@@ -1,0 +1,37 @@
+target_id,expected_verdict,rationale
+XC01,top,Human resistance mutations are tier-1 scaffold evidence and degradation beats inhibition in autoimmune models
+XC02,reject_scaffold_protective,Scaffold is protective; knockout is lethal while kinase-dead is normal
+XC03,reject_inhibition_sufficient,Kinase-dead phenocopies knockout; degrader matches inhibitor in primary human T cells
+XC06,reject_inhibition_sufficient,No scaffold evidence exists and a tolerated allosteric inhibitor already works
+II01,top,Axis validated by dupilumab; intracellular TF with no inhibitor option and good degron features
+II02,nominate_for_validation,GWAS association only but the modality case is strong; needs a perturbation experiment
+II03,nominate_for_validation,Tier-4 structural evidence and preclinical validity; modality case is excellent
+II04,reject_wrong_modality,Approved antibodies on an 84-day interval; no displacement argument
+II05,reject_inhibition_sufficient,Allosteric inhibition already solved it
+II06,reject_wrong_modality,Approved anti-CD20s and no catalytic or non-neutralisable argument
+II07,mid,Strong scaffold logic but two Phase 2 terminations and no controlled efficacy
+II08,reject_target_invalid,Trial showed harm; adjacent node to IL-23 with opposite sign
+II09,reject_target_invalid,Class-wide failure with tachyphylaxis; degradable protein but refuted target
+II10,reject_target_invalid,Cytokine elevation is a severity marker not a driver; trial showed harm
+II11,reject_wrong_modality,No displacement argument and a massively redundant receptor class
+II12,reject_target_invalid,Statistically significant but clinically inadequate against standard of care
+II13,mid,Causal human genetics and a validated downstream node but no positive Phase 3
+II14,flag_strategic_discontinuation,Positive Phase 2 and a Phase 3 that was never run; not a scientific failure
+II15,reject_target_invalid,Perfectly degradable cytosolic enzyme with a refuted target
+CM01,top,Disease mechanism is failed degradation; replicated genetics and free hepatic delivery
+CM02,top,Excellent replicated genetics on an intracellular hepatic enzyme
+CM03,nominate_for_validation,Validity is one node from CANTOS and unproven; modality case is excellent
+CM04,reject_modality_too_weak,Reachable via the lysosomal track but inclisiran is already twice-yearly; turnover buys no interval
+CM05,reject_modality_too_weak,Reachable but two approved drugs already; displacement case does not survive
+CM06,reject_modality_too_weak,Reachable but approved competitor and a weak displacement case
+CM07,reject_wrong_modality,Refuted after ZEUS and crowded
+CM08,flag_contested,MR stands; HORIZON failure explicable by threshold and power
+CM09,reject_target_invalid,MR refuted at matched engagement; refutation transfers to any modality
+CM10,reject_target_invalid,MR refuted; HDL raising is non-causal regardless of how you drug it
+CM11,reject_target_invalid,MR refuted with net harm in trial
+CM12,reject_target_invalid,No human genetic support ever existed; should score low before the trial not after
+CM13,reject_target_invalid,Highly ligandable and degradable nuclear receptor with failed validity
+TR01,reject_wrong_modality,Reachable compartment but no advantage over any existing modality
+TR02,reject_wrong_modality,Reachable compartment but no displacement argument and orphan pharmacology
+TR03,reject_wrong_modality,Reachable compartment but no displacement argument
+XC07,nominate_for_validation,Paralog modality case is decisive but validity in these disease areas is nil; it is an oncology exemplar
